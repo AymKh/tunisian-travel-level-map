@@ -13,23 +13,7 @@ Mark the places you've visited and see which other more you wanna go to!
 
 ## TODO
 
-| Emoji | Description |
-| ----- | ----------- |
-| ✏️ | Task to do |
-| 👷 | task in progress |
-| ✅ | task done |
-| 🚀 | task merged and available online |
-
-
-
-✅ Import SVG map for TN  
-👷 Make MAP interactive (display state name on hover)  
-✏️ Add menu to display levels' points  
-✏️ Add context menu that displays when a state is clicked
-✏️ Add header with text "Tunisia Level XX"  
-✏️ Add logic to update level when states are clicked  
-✏️ Add save to image logic  
-✏️ Add share button (facebook)  
+All available tasks have been moved to this [GITHUB PROJECT](https://github.com/users/AymKh/projects/3/views/1)
 
 
 ## Note
