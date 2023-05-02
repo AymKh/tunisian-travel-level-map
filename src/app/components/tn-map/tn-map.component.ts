@@ -26,7 +26,6 @@ export class TnMapComponent implements AfterViewInit {
 
     for (let index = 0; index < (this.STATES_IN_MAP.length - 3); index++) {
       const svgAnchorElement = this.STATES_IN_MAP[index]; // outer anchor tag that holds a path
-      const svgPathElement = svgAnchorElement['firstChild']; // actual path element
       const svgPathID = svgAnchorElement['firstChild'].id; // ID assogned to each path, used to reference state properties in imported object
       const STATE = TN_STATE_INFO[svgPathID]; // state properties imported from the global object
 
