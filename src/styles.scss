@@ -11,3 +11,30 @@ body {
     background-color: #9dc3fb;
     color: #000;
 }
+
+
+.tooltip {
+    width: auto;
+    padding: .5rem 1rem;
+    background: #ffffffb4;
+    border-radius: 4px;
+
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #000;
+
+    box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.1);
+
+    &::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid #ffffffb4;
+        position: absolute;
+        left: calc(50% - 5px);
+        top: -5px;
+    }
+}
