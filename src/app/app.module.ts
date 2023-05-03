@@ -1,14 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+// COMPONENTS
 import { TnMapComponent } from "./components/tn-map/tn-map.component";
 
 @NgModule({
-    declarations: [
-        AppComponent
-    ],
+    declarations: [AppComponent],
     providers: [],
     bootstrap: [AppComponent],
     imports: [
